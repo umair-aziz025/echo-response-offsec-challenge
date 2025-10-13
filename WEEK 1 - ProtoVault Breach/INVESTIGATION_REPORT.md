@@ -1,6 +1,6 @@
 # ProtoVault Security Incident - Investigation Report
 **Date:** October 11, 2025  
-**Investigator:** Digital Incident Response Team  
+**Investigator:** MR. Umair 
 **Case:** Database Leak Investigation
 
 ---
@@ -257,4 +257,4 @@ The investigation confirmed a complete database leak through an insecure backup 
 
 ---
 
-*Report prepared by: GitHub Copilot - Digital Investigator*
+*Report prepared by: MR. Umair*
