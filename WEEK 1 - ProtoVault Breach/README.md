@@ -1,7 +1,7 @@
 # Week 1 - ProtoVault Breach 🔐
 
 **Challenge Name:** ProtoVault Database Leak Investigation  
-**Difficulty:** Intermediate  
+**Difficulty:** Beginner  
 **Category:** Incident Response, Digital Forensics, OSINT  
 **Date Completed:** October 11, 2025
 

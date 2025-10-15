@@ -17,7 +17,7 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 ### ✅ [Week 1 - ProtoVault Breach](./WEEK%201%20-%20ProtoVault%20Breach)
 **Status:** COMPLETED  
 **Category:** Incident Response, Digital Forensics, OSINT  
-**Difficulty:** Intermediate
+**Difficulty:** Beginner
 
 **Scenario:** A database breach at ProtoVault with ransom demands. Investigation revealed hardcoded credentials, public S3 buckets, and Git history leaks.
 
@@ -37,7 +37,7 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 ### ✅ [Week 2 - Stealer's Shadow](./WEEK%202%20-%20Stealer's%20Shadow)
 **Status:** COMPLETED  
 **Category:** Incident Response, Malware Analysis, Threat Intelligence  
-**Difficulty:** Advanced
+**Difficulty:** Intermediate
 
 **Scenario:** Data exfiltration incident at Megacorp One (The Etherians). Sophisticated multi-stage attack using blockchain payload delivery, LOLBin abuse, and registry hijacking to steal credentials and sensitive data.
 
@@ -93,8 +93,8 @@ Through these challenges, I'm developing expertise in:
 
 | Week | Challenge Name | Status | Category | Difficulty |
 |------|---------------|--------|----------|------------|
-| 1 | ProtoVault Breach | ✅ Completed | Forensics/IR | Intermediate |
-| 2 | Stealer's Shadow | ✅ Completed | Malware/IR | Advanced |
+| 1 | ProtoVault Breach | ✅ Completed | Forensics/IR | Beginner |
+| 2 | Stealer's Shadow | ✅ Completed | Malware/IR | Intermediate |
 | 3 | TBA | ⏳ Pending | - | - |
 | 4 | TBA | ⏳ Pending | - | - |
 

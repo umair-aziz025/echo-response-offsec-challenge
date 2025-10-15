@@ -1,7 +1,7 @@
 # Week 2 - Stealer's Shadow 👤
 
 **Challenge Name:** Data Exfiltration Incident Analysis  
-**Difficulty:** Advanced  
+**Difficulty:** Intermediate  
 **Category:** Incident Response, Malware Analysis, Threat Intelligence  
 **Date Completed:** October 15, 2025
 
