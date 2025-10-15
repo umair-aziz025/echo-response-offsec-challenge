@@ -34,6 +34,36 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 
 ---
 
+### ✅ [Week 2 - Stealer's Shadow](./WEEK%202%20-%20Stealer's%20Shadow)
+**Status:** COMPLETED  
+**Category:** Incident Response, Malware Analysis, Threat Intelligence  
+**Difficulty:** Advanced
+
+**Scenario:** Data exfiltration incident at Megacorp One (The Etherians). Sophisticated multi-stage attack using blockchain payload delivery, LOLBin abuse, and registry hijacking to steal credentials and sensitive data.
+
+**Key Skills:**
+- Sysmon log analysis and Windows forensics
+- Blockchain-based payload investigation
+- LOLBin (Living Off the Land Binaries) detection
+- Email and browser artifact forensics
+- C2 infrastructure mapping
+- Credential theft analysis
+- Advanced social engineering techniques
+
+**Novel Techniques Discovered:**
+- Smart contract payload delivery via Ethereum RPC
+- Fake CAPTCHA social engineering
+- IMEWDBLD.EXE abuse for malware download
+- Registry file association hijacking
+
+**Files:**
+- [Investigation Report](./WEEK%202%20-%20Stealer's%20Shadow/INVESTIGATION_REPORT.md)
+- [Analysis Script](./WEEK%202%20-%20Stealer's%20Shadow/analyze_attack.py)
+- [Challenge README](./WEEK%202%20-%20Stealer's%20Shadow/README.md)
+- [Sysmon Logs](./WEEK%202%20-%20Stealer's%20Shadow/log.txt)
+
+---
+
 ## 🎯 Learning Objectives
 
 Through these challenges, I'm developing expertise in:
@@ -64,7 +94,7 @@ Through these challenges, I'm developing expertise in:
 | Week | Challenge Name | Status | Category | Difficulty |
 |------|---------------|--------|----------|------------|
 | 1 | ProtoVault Breach | ✅ Completed | Forensics/IR | Intermediate |
-| 2 | TBA | ⏳ Pending | - | - |
+| 2 | Stealer's Shadow | ✅ Completed | Malware/IR | Advanced |
 | 3 | TBA | ⏳ Pending | - | - |
 | 4 | TBA | ⏳ Pending | - | - |
 
@@ -73,9 +103,11 @@ Through these challenges, I'm developing expertise in:
 ## 🏆 Achievements
 
 - ✅ Week 1: Complete investigation with all questions answered
-- ✅ Identified 6+ critical security vulnerabilities
+- ✅ Week 2: Advanced malware analysis and blockchain-based attack detection
+- ✅ Identified 10+ critical security vulnerabilities across both challenges
 - ✅ Created automated analysis scripts
 - ✅ Documented comprehensive remediation steps
+- ✅ Discovered novel attack techniques (blockchain payload delivery, LOLBin chaining)
 
 ---
 
@@ -88,7 +120,11 @@ echo-response-offsec-challenge/
 │   ├── README.md                      # Challenge overview
 │   ├── INVESTIGATION_REPORT.md        # Detailed forensic analysis
 │   └── analyze_leak.py                # Solution script
-├── WEEK 2 - [Challenge Name]/         # Coming soon
+├── WEEK 2 - Stealer's Shadow/
+│   ├── README.md                      # Challenge overview
+│   ├── INVESTIGATION_REPORT.md        # Detailed forensic analysis
+│   ├── analyze_attack.py              # Solution script
+│   └── log.txt                        # Sysmon event logs
 └── ...
 ```
 
@@ -107,6 +143,8 @@ To explore the solutions:
 2. **Navigate to a specific week:**
    ```bash
    cd "WEEK 1 - ProtoVault Breach"
+   # or
+   cd "WEEK 2 - Stealer's Shadow"
    ```
 
 3. **Read the challenge writeup:**
@@ -152,4 +190,4 @@ If you find these solutions helpful, please consider giving this repository a st
 
 *"Will you uncover the truth before the balance collapses?"*
 
-**Last Updated:** October 11, 2025
+**Last Updated:** October 15, 2025
