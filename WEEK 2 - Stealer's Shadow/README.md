@@ -346,5 +346,4 @@ HKEY_CLASSES_ROOT\.epub → exefile association
 ---
 
 **Investigator:** MR. Umair  
-**Organization:** Deltaware Solutions  
 **Challenge Platform:** OffSec Legends - Echo Response Event
