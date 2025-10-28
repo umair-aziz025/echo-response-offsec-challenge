@@ -4,7 +4,7 @@
 **Date:** October 28, 2025  
 **Status:** ✅ COMPLETED  
 **Category:** Incident Response, Cloud Security, Digital Forensics  
-**Difficulty:** Advanced
+**Difficulty:** Intermediate
 
 ---
 

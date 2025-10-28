@@ -67,7 +67,7 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 ### ✅ [Week 4 - Echo Trail](./WEEK%204%20-%20Echo%20Trail)
 **Status:** COMPLETED  
 **Category:** Incident Response, Cloud Security, Digital Forensics  
-**Difficulty:** Advanced
+**Difficulty:** Intermediate
 
 **Scenario:** Multi-stage attack against Empathreach (NGO-Hub) involving phishing, MFA bypass, Azure cloud exploitation, and database exfiltration. The adversary seeks the Nullform Key metadata hidden deep within NGO-Hub's systems.
 
@@ -136,7 +136,7 @@ Through these challenges, I'm developing expertise in:
 | 1 | ProtoVault Breach | ✅ Completed | Forensics/IR | Beginner |
 | 2 | Stealer's Shadow | ✅ Completed | Malware/IR | Intermediate |
 | 3 | TBA | ⏳ Pending | - | - |
-| 4 | Echo Trail | ✅ Completed | Cloud/IR | Advanced |
+| 4 | Echo Trail | ✅ Completed | Cloud/IR | Intermediate |
 
 ---
 
