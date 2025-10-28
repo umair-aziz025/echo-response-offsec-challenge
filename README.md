@@ -64,6 +64,36 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 
 ---
 
+### ✅ [Week 3 - Quantum Conundrum](./WEEK%203%20-%20Quantum%20Conundrum)
+**Status:** COMPLETED  
+**Category:** Reverse Engineering, Cryptanalysis, Binary Analysis  
+**Difficulty:** Hard
+
+**Scenario:** Break Megacorp Quantum's "unbreakable" and "quantum-proof" encryption protecting the Obscuran Key. Reverse-engineer a sophisticated multi-layer cipher, analyze binary code, and decrypt the encrypted vault to extract the hidden flag.
+
+**Key Skills:**
+- Binary reverse engineering with Ghidra
+- Cryptanalysis and custom cipher breaking
+- Algorithm analysis and reconstruction
+- Bit manipulation and matrix operations
+- Python decryption script development
+- Base64 decoding and data parsing
+- Security vulnerability assessment
+
+**Novel Techniques Discovered:**
+- 7-layer transformation pipeline (Ring rotation, Add/Subtract constants, Cyclic shifts, Quadrant swaps, Bit-pair swap, Variable rotation)
+- Weak keystream generation via simple arithmetic
+- Hardcoded salt exploitation
+- Matrix-based obfuscation techniques
+
+**Files:**
+- [Investigation Report](./WEEK%203%20-%20Quantum%20Conundrum/INVESTIGATION_REPORT.md)
+- [Decryption Script](./WEEK%203%20-%20Quantum%20Conundrum/solve_decrypt.py)
+- [Transformation Guide](./WEEK%203%20-%20Quantum%20Conundrum/Understanding_7_Transformations.md)
+- [Challenge README](./WEEK%203%20-%20Quantum%20Conundrum/README.md)
+
+---
+
 ### ✅ [Week 4 - Echo Trail](./WEEK%204%20-%20Echo%20Trail)
 **Status:** COMPLETED  
 **Category:** Incident Response, Cloud Security, Digital Forensics  
@@ -111,6 +141,8 @@ Through these challenges, I'm developing expertise in:
 - **Azure Security:** Azure AD, Azure Arc, Cloud Shell investigation
 - **Email Security:** Phishing detection and analysis
 - **Network Forensics:** PCAP analysis and traffic inspection
+- **Reverse Engineering:** Binary analysis and decompilation
+- **Cryptanalysis:** Breaking custom encryption schemes
 
 ---
 
@@ -119,13 +151,14 @@ Through these challenges, I'm developing expertise in:
 - **Programming:** Python, Bash/PowerShell scripting
 - **Version Control:** Git forensics
 - **Cloud:** AWS (S3, IAM, Secrets Manager), Azure (Azure AD, Azure Arc, Cloud Shell)
-- **Cryptography:** Encoding/decoding, cipher analysis
+- **Cryptography:** Encoding/decoding, cipher analysis, custom algorithm breaking
 - **Security:** OWASP practices, security frameworks, MITRE ATT&CK
 - **Forensics:** Log analysis, artifact recovery, PCAP analysis
 - **Network Analysis:** Wireshark, tcpdump
 - **Email Analysis:** SMTP protocol analysis, phishing detection
 - **Database:** SQL, MySQL/MariaDB forensics
 - **Windows:** Sysmon, Event Viewer, Windows Event Logs
+- **Reverse Engineering:** Ghidra, binary analysis, disassembly
 
 ---
 
@@ -135,7 +168,7 @@ Through these challenges, I'm developing expertise in:
 |------|---------------|--------|----------|------------|
 | 1 | ProtoVault Breach | ✅ Completed | Forensics/IR | Beginner |
 | 2 | Stealer's Shadow | ✅ Completed | Malware/IR | Intermediate |
-| 3 | TBA | ⏳ Pending | - | - |
+| 3 | Quantum Conundrum | ✅ Completed | Reverse Eng/Crypto | Hard |
 | 4 | Echo Trail | ✅ Completed | Cloud/IR | Intermediate |
 
 ---
@@ -144,12 +177,14 @@ Through these challenges, I'm developing expertise in:
 
 - ✅ Week 1: Complete investigation with all questions answered
 - ✅ Week 2: Advanced malware analysis and blockchain-based attack detection
+- ✅ Week 3: Reverse-engineered and broke "quantum-proof" encryption system
 - ✅ Week 4: Cloud security incident response and Azure exploitation analysis
-- ✅ Identified 20+ critical security vulnerabilities across three challenges
+- ✅ Identified 25+ critical security vulnerabilities across four challenges
 - ✅ Created automated analysis scripts for log parsing and forensics
 - ✅ Documented comprehensive remediation steps
-- ✅ Discovered novel attack techniques (blockchain payload delivery, LOLBin chaining, Azure Arc SSH abuse)
+- ✅ Discovered novel attack techniques (blockchain payload delivery, LOLBin chaining, Azure Arc SSH abuse, 7-layer cipher obfuscation)
 - ✅ Demonstrated expertise in multi-cloud environments (AWS, Azure)
+- ✅ Successfully performed binary reverse engineering and cryptanalysis
 
 ---
 
@@ -167,6 +202,11 @@ echo-response-offsec-challenge/
 │   ├── INVESTIGATION_REPORT.md        # Detailed forensic analysis
 │   ├── analyze_attack.py              # Solution script
 │   └── log.txt                        # Sysmon event logs
+├── WEEK 3 - Quantum Conundrum/
+│   ├── README.md                      # Challenge overview
+│   ├── INVESTIGATION_REPORT.md        # Detailed security assessment
+│   ├── solve_decrypt.py               # Decryption script
+│   └── Understanding_7_Transformations.md  # Transformation analysis
 ├── WEEK 4 - Echo Trail/
 │   ├── README.md                      # Challenge overview
 │   ├── INVESTIGATION_REPORT.md        # Detailed forensic analysis
@@ -191,6 +231,8 @@ To explore the solutions:
    cd "WEEK 1 - ProtoVault Breach"
    # or
    cd "WEEK 2 - Stealer's Shadow"
+   # or
+   cd "WEEK 3 - Quantum Conundrum"
    # or
    cd "WEEK 4 - Echo Trail"
    ```
@@ -233,6 +275,10 @@ This repository is for educational purposes only. Challenge scenarios are proper
 ## ⭐ Star This Repo
 
 If you find these solutions helpful, please consider giving this repository a star! It helps others discover these resources.
+
+---
+
+**Last Updated:** October 28, 2025
 
 ---
 
