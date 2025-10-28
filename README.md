@@ -64,6 +64,39 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 
 ---
 
+### ✅ [Week 4 - Echo Trail](./WEEK%204%20-%20Echo%20Trail)
+**Status:** COMPLETED  
+**Category:** Incident Response, Cloud Security, Digital Forensics  
+**Difficulty:** Advanced
+
+**Scenario:** Multi-stage attack against Empathreach (NGO-Hub) involving phishing, MFA bypass, Azure cloud exploitation, and database exfiltration. The adversary seeks the Nullform Key metadata hidden deep within NGO-Hub's systems.
+
+**Key Skills:**
+- Email forensics and phishing analysis
+- Network traffic analysis (PCAP)
+- Azure AD log analysis and authentication investigation
+- SMTP protocol analysis
+- Azure Cloud Shell forensics
+- Azure Arc SSH lateral movement detection
+- Database exfiltration analysis
+- Windows Event Log analysis (Sysmon)
+- Multi-source log correlation
+- MITRE ATT&CK threat mapping
+
+**Novel Techniques Discovered:**
+- Typosquatting domain abuse (mcrosoft.com)
+- Azure MFA bypass patterns
+- Azure Arc SSH for lateral movement
+- Cloud Shell exploitation
+- MariaDB mysqldump for data exfiltration
+
+**Files:**
+- [Investigation Report](./WEEK%204%20-%20Echo%20Trail/INVESTIGATION_REPORT.md)
+- [Analysis Script](./WEEK%204%20-%20Echo%20Trail/analyze_logs.py)
+- [Challenge README](./WEEK%204%20-%20Echo%20Trail/README.md)
+
+---
+
 ## 🎯 Learning Objectives
 
 Through these challenges, I'm developing expertise in:
@@ -75,6 +108,9 @@ Through these challenges, I'm developing expertise in:
 - **Cloud Security:** AWS infrastructure security
 - **Python Automation:** Security tooling and scripting
 - **OSINT Techniques:** Open source intelligence gathering
+- **Azure Security:** Azure AD, Azure Arc, Cloud Shell investigation
+- **Email Security:** Phishing detection and analysis
+- **Network Forensics:** PCAP analysis and traffic inspection
 
 ---
 
@@ -82,10 +118,14 @@ Through these challenges, I'm developing expertise in:
 
 - **Programming:** Python, Bash/PowerShell scripting
 - **Version Control:** Git forensics
-- **Cloud:** AWS (S3, IAM, Secrets Manager)
+- **Cloud:** AWS (S3, IAM, Secrets Manager), Azure (Azure AD, Azure Arc, Cloud Shell)
 - **Cryptography:** Encoding/decoding, cipher analysis
-- **Security:** OWASP practices, security frameworks
-- **Forensics:** Log analysis, artifact recovery
+- **Security:** OWASP practices, security frameworks, MITRE ATT&CK
+- **Forensics:** Log analysis, artifact recovery, PCAP analysis
+- **Network Analysis:** Wireshark, tcpdump
+- **Email Analysis:** SMTP protocol analysis, phishing detection
+- **Database:** SQL, MySQL/MariaDB forensics
+- **Windows:** Sysmon, Event Viewer, Windows Event Logs
 
 ---
 
@@ -96,7 +136,7 @@ Through these challenges, I'm developing expertise in:
 | 1 | ProtoVault Breach | ✅ Completed | Forensics/IR | Beginner |
 | 2 | Stealer's Shadow | ✅ Completed | Malware/IR | Intermediate |
 | 3 | TBA | ⏳ Pending | - | - |
-| 4 | TBA | ⏳ Pending | - | - |
+| 4 | Echo Trail | ✅ Completed | Cloud/IR | Advanced |
 
 ---
 
@@ -104,10 +144,12 @@ Through these challenges, I'm developing expertise in:
 
 - ✅ Week 1: Complete investigation with all questions answered
 - ✅ Week 2: Advanced malware analysis and blockchain-based attack detection
-- ✅ Identified 10+ critical security vulnerabilities across both challenges
-- ✅ Created automated analysis scripts
+- ✅ Week 4: Cloud security incident response and Azure exploitation analysis
+- ✅ Identified 20+ critical security vulnerabilities across three challenges
+- ✅ Created automated analysis scripts for log parsing and forensics
 - ✅ Documented comprehensive remediation steps
-- ✅ Discovered novel attack techniques (blockchain payload delivery, LOLBin chaining)
+- ✅ Discovered novel attack techniques (blockchain payload delivery, LOLBin chaining, Azure Arc SSH abuse)
+- ✅ Demonstrated expertise in multi-cloud environments (AWS, Azure)
 
 ---
 
@@ -125,6 +167,10 @@ echo-response-offsec-challenge/
 │   ├── INVESTIGATION_REPORT.md        # Detailed forensic analysis
 │   ├── analyze_attack.py              # Solution script
 │   └── log.txt                        # Sysmon event logs
+├── WEEK 4 - Echo Trail/
+│   ├── README.md                      # Challenge overview
+│   ├── INVESTIGATION_REPORT.md        # Detailed forensic analysis
+│   └── analyze_logs.py                # Azure log parser script
 └── ...
 ```
 
@@ -145,6 +191,8 @@ To explore the solutions:
    cd "WEEK 1 - ProtoVault Breach"
    # or
    cd "WEEK 2 - Stealer's Shadow"
+   # or
+   cd "WEEK 4 - Echo Trail"
    ```
 
 3. **Read the challenge writeup:**
@@ -190,4 +238,4 @@ If you find these solutions helpful, please consider giving this repository a st
 
 *"Will you uncover the truth before the balance collapses?"*
 
-**Last Updated:** October 15, 2025
+**Last Updated:** October 28, 2025
