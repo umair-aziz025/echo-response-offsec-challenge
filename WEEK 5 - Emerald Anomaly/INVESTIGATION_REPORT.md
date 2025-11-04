@@ -1,7 +1,5 @@
 # Investigation Report: Week 5 - Emerald Anomaly
 
-# Investigation Report: Week 5 - Emerald Anomaly
-
 ## Executive Summary
 
 This investigation analyzed a sophisticated supply chain attack targeting CLIENT14 at MEGACORPONE through a backdoored Python MCP (Model Context Protocol) server. The attacker employed typosquatting, obfuscation, and multi-stage infrastructure to exfiltrate credentials and validate them via SMTP relay. 
@@ -689,6 +687,10 @@ The incident highlights the importance of:
 
 ---
 
-**Report Generated:** 2025-11-04  
-**Analyst:** CTF Investigator  
+**Date:** November 04, 2025  
+**Investigator:** Mr. Umair  
 **Case:** OffSec Echo Response - Week 5: Emerald Anomaly
+
+---
+
+*"In the world of cybersecurity, the smallest anomaly can reveal the largest threat. Stay vigilant."*
