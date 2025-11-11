@@ -1,0 +1,34 @@
+IOC Type,Value,Description,First Seen
+IP Address,203.0.113.42,C2 server for exfiltration,2025-11-11
+URL,http://203.0.113.42:8000/,Exfiltration endpoint,2025-11-11
+Port,8000/TCP,HTTP exfiltration port,2025-11-11
+File Hash (SHA256),TBD,Obfuscated_Intent.exe (packed),2025-11-11
+File Hash (SHA256),TBD,unpacked.exe,2025-11-11
+File Name,Obfuscated_Intent.exe,Malware sample (UPX packed),2025-11-11
+File Extension,.pdf,Target document type,2025-11-11
+File Extension,.doc,Target document type,2025-11-11
+File Extension,.docx,Target document type,2025-11-11
+File Extension,.xls,Target document type,2025-11-11
+File Extension,.msg,Target document type,2025-11-11
+API Call,IsDebuggerPresent,Anti-debugging check,2025-11-11
+API Call,CheckRemoteDebuggerPresent,Anti-debugging check,2025-11-11
+API Call,IcmpSendEcho,ICMP reconnaissance,2025-11-11
+API Call,FindFirstFileW,Filesystem enumeration,2025-11-11
+API Call,FindNextFileW,Filesystem enumeration,2025-11-11
+API Call,_wsystem,PowerShell execution,2025-11-11
+DLL,WS2_32.dll,Network operations,2025-11-11
+DLL,IPHLPAPI.DLL,ICMP functionality,2025-11-11
+ICMP Payload,w00t,C2 connectivity test,2025-11-11
+PowerShell Command,Invoke-RestMethod,HTTP PUT exfiltration,2025-11-11
+Obfuscation,Hex encoding,URL obfuscation,2025-11-11
+Obfuscation,XOR (key 0x7a),File extension encoding,2025-11-11
+Packer,UPX,Binary compression,2025-11-11
+MITRE ATT&CK,T1027,Obfuscated Files or Information,2025-11-11
+MITRE ATT&CK,T1622,Debugger Evasion,2025-11-11
+MITRE ATT&CK,T1140,Deobfuscate/Decode Files or Information,2025-11-11
+MITRE ATT&CK,T1083,File and Directory Discovery,2025-11-11
+MITRE ATT&CK,T1005,Data from Local System,2025-11-11
+MITRE ATT&CK,T1041,Exfiltration Over C2 Channel,2025-11-11
+MITRE ATT&CK,T1059.001,PowerShell,2025-11-11
+MITRE ATT&CK,T1071.001,Web Protocols,2025-11-11
+MITRE ATT&CK,T1095,Non-Application Layer Protocol,2025-11-11

@@ -168,6 +168,52 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 
 ---
 
+### ✅ [Week 6 - Nullform Vault](./WEEK%206%20-%20Nullform%20Vault)
+**Status:** INVESTIGATION COMPLETE ✅  
+**Category:** Malware Analysis, Reverse Engineering, Digital Forensics  
+**Difficulty:** Hard
+
+**Scenario:** The final confrontation - analyzing **Obfuscated_Intent.exe**, a sophisticated UPX-packed malware sample designed to exfiltrate sensitive documents. The malware employs anti-debugging checks, ICMP reconnaissance, recursive filesystem scanning, and PowerShell-based HTTP exfiltration to steal office documents and emails. **Investigation successfully concluded. All IOCs documented. The Nullform Key has been secured.**
+
+**Key Skills:**
+- UPX unpacking and binary analysis
+- PE file format analysis
+- Anti-debugging technique identification
+- PowerShell obfuscation analysis
+- Hex encoding/decoding
+- Import table analysis (WS2_32.dll, IPHLPAPI.DLL)
+- ICMP protocol analysis
+- HTTP exfiltration detection
+- C runtime function analysis (_wsystem)
+- MITRE ATT&CK technique mapping
+
+**Novel Techniques Discovered:**
+- UPX packing for binary obfuscation
+- Hex-encoded URL strings in PowerShell commands
+- XOR-encoded file extensions (key 0x7a)
+- ICMP "w00t" payload for connectivity verification
+- _wsystem() for PowerShell command execution
+- Invoke-RestMethod PUT for individual file uploads
+- Anti-debugging checks (IsDebuggerPresent, CheckRemoteDebuggerPresent)
+
+**Attack Chain:**
+1. Execute UPX-packed malware (Obfuscated_Intent.exe)
+2. Perform anti-debugging checks to evade analysis
+3. Send ICMP ping with "w00t" payload to verify C2 connectivity (203.0.113.42)
+4. Recursively scan C:\ for target file types (.pdf, .doc, .docx, .xls, .msg)
+5. Construct PowerShell commands with hex-encoded exfiltration URL
+6. Execute _wsystem() to run PowerShell Invoke-RestMethod
+7. Upload files via HTTP PUT to http://203.0.113.42:8000/
+
+**Files:**
+- [Investigation Report](./WEEK%206%20-%20Nullform%20Vault/INVESTIGATION_REPORT.md)
+- [Challenge README](./WEEK%206%20-%20Nullform%20Vault/README.md)
+- [IOC Report (CSV)](./WEEK%206%20-%20Nullform%20Vault/ioc_report.csv)
+- [IOC Report (Markdown)](./WEEK%206%20-%20Nullform%20Vault/ioc_report.md)
+- [Malware Sample](./WEEK%206%20-%20Nullform%20Vault/Obfuscated_Intent.exe)
+
+---
+
 ## 🎯 Learning Objectives
 
 Through these challenges, I'm developing expertise in:
@@ -217,6 +263,7 @@ Through these challenges, I'm developing expertise in:
 | 3 | Quantum Conundrum | ✅ Completed | Reverse Eng/Crypto | Hard |
 | 4 | Echo Trail | ✅ Completed | Cloud/IR | Intermediate |
 | 5 | Emerald Anomaly | ✅ Completed | Malware/Network | Hard |
+| 6 | Nullform Vault | ✅ Completed | Malware/RE/Forensics | Hard |
 
 ---
 
@@ -227,7 +274,8 @@ Through these challenges, I'm developing expertise in:
 - ✅ Week 3: Reverse-engineered and broke "quantum-proof" encryption system
 - ✅ Week 4: Cloud security incident response and Azure exploitation analysis
 - ✅ Week 5: Decoded obfuscated backdoor and identified dual-infrastructure attack
-- ✅ Identified 30+ critical security vulnerabilities across five challenges
+- ✅ Week 6: Reverse-engineered UPX-packed malware and documented complete exfiltration chain
+- ✅ Identified 35+ critical security vulnerabilities across six challenges
 - ✅ Created automated analysis scripts for log parsing and forensics
 - ✅ Documented comprehensive remediation steps
 - ✅ Discovered novel attack techniques:
@@ -274,6 +322,12 @@ echo-response-offsec-challenge/
 │   ├── INVESTIGATION_REPORT.md        # Detailed forensic analysis
 │   ├── analyze_backdoor.ps1           # PowerShell decoder script
 │   └── mcp_backdoor_server.py         # Backdoor source code
+├── WEEK 6 - Nullform Vault/
+│   ├── README.md                      # Challenge overview and Q&A
+│   ├── INVESTIGATION_REPORT.md        # Complete forensic investigation
+│   ├── Obfuscated_Intent.exe          # Malware sample (UPX-packed)
+│   ├── ioc_report.csv                 # IOCs in CSV format
+│   └── ioc_report.md                  # IOCs in Markdown format
 └── ...
 ```
 
@@ -300,6 +354,8 @@ To explore the solutions:
    cd "WEEK 4 - Echo Trail"
    # or
    cd "WEEK 5 - Emerald Anomaly"
+   # or
+   cd "WEEK 6 - Nullform Vault"
    ```
 
 3. **Read the challenge writeup:**
@@ -347,7 +403,7 @@ If you find these solutions helpful, please consider giving this repository a st
 
 ---
 
-**Last Updated:** November 5, 2025
+**Last Updated:** November 11, 2025
 
 ---
 
