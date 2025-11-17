@@ -1,7 +1,7 @@
 # Tutorial Challenge - Security Incident Investigation Report
 
 **Date:** November 17, 2025  
-**Investigator:** Umair Aziz  
+**Investigator:** MR. Umair  
 **Case:** Echo Response - Week 0 Tutorial  
 **Difficulty:** Easy  
 **Category:** Incident Response, Log Analysis, Encoding
