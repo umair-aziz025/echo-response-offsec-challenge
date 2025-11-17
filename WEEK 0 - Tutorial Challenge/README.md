@@ -409,7 +409,7 @@ This tutorial challenge serves as an introduction to the Echo Response series:
 
 ---
 
-**Challenge Completed:** November 17, 2025  
+**Challenge Completed:** October 7, 2025  
 **Investigator:** MR. Umair  
 **Repository:** [echo-response-offsec-challenge](https://github.com/umair-aziz025/echo-response-offsec-challenge)
 

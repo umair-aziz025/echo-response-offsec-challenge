@@ -1,6 +1,6 @@
 # Tutorial Challenge - Security Incident Investigation Report
 
-**Date:** November 17, 2025  
+**Date:** October 7, 2025  
 **Investigator:** MR. Umair  
 **Case:** Echo Response - Week 0 Tutorial  
 **Difficulty:** Easy  
