@@ -14,6 +14,33 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 
 ## 📂 Challenge Solutions
 
+### ✅ [Week 0 - Tutorial Challenge](./WEEK%200%20-%20Tutorial%20Challenge)
+**Status:** COMPLETED  
+**Category:** Incident Response, Log Analysis, Encoding  
+**Difficulty:** Easy
+
+**Scenario:** Introduction to Echo Response challenge format through Base64 decoding and web server log analysis. Participants decode a cybersecurity awareness poem and identify a path traversal attack targeting SSH private keys.
+
+**Key Skills:**
+- Base64 encoding/decoding
+- Web server log analysis
+- Path traversal vulnerability detection
+- Security incident investigation
+- Answer format familiarization
+
+**Key Findings:**
+- Successfully decoded Base64-encoded tutorial message
+- Identified path traversal attack from IP 192.168.1.101
+- Detected SSH private key exfiltration (/home/dave/.ssh/id_rsa)
+- 1,678 bytes exfiltrated with HTTP 200 status (successful attack)
+
+**Files:**
+- [Investigation Report](./WEEK%200%20-%20Tutorial%20Challenge/INVESTIGATION_REPORT.md)
+- [Analysis Script](./WEEK%200%20-%20Tutorial%20Challenge/analyze_tutorial.py)
+- [Challenge README](./WEEK%200%20-%20Tutorial%20Challenge/README.md)
+
+---
+
 ### ✅ [Week 1 - ProtoVault Breach](./WEEK%201%20-%20ProtoVault%20Breach)
 **Status:** COMPLETED  
 **Category:** Incident Response, Digital Forensics, OSINT  
@@ -231,6 +258,9 @@ Through these challenges, I'm developing expertise in:
 - **Reverse Engineering:** Binary analysis, decompilation, and obfuscation reversal
 - **Cryptanalysis:** Breaking custom encryption schemes
 - **DNS Security:** Typosquatting detection and analysis
+- **Log Analysis:** Web server log parsing and pattern detection
+- **Encoding/Decoding:** Base64 and other encoding schemes
+- **Web Security:** Path traversal and directory traversal attacks
 - **Supply Chain Security:** Backdoor detection in legitimate software
 - **Credential Theft Analysis:** Exfiltration detection and prevention
 
@@ -251,6 +281,7 @@ Through these challenges, I'm developing expertise in:
 - **Reverse Engineering:** Ghidra, Python decompilation, binary analysis, obfuscation reversal
 - **Malware Analysis:** Static analysis, dynamic analysis, IOC extraction
 - **DNS:** DNS query analysis, typosquatting detection
+- **Web Security:** Path traversal detection, access log analysis, vulnerability assessment
 
 ---
 
@@ -258,6 +289,7 @@ Through these challenges, I'm developing expertise in:
 
 | Week | Challenge Name | Status | Category | Difficulty |
 |------|---------------|--------|----------|------------|
+| 0 | Tutorial Challenge | ✅ Completed | Log Analysis/Encoding | Easy |
 | 1 | ProtoVault Breach | ✅ Completed | Forensics/IR | Beginner |
 | 2 | Stealer's Shadow | ✅ Completed | Malware/IR | Intermediate |
 | 3 | Quantum Conundrum | ✅ Completed | Reverse Eng/Crypto | Hard |
@@ -269,13 +301,14 @@ Through these challenges, I'm developing expertise in:
 
 ## 🏆 Achievements
 
+- ✅ Week 0: Mastered challenge format and identified path traversal attack
 - ✅ Week 1: Complete investigation with all questions answered
 - ✅ Week 2: Advanced malware analysis and blockchain-based attack detection
 - ✅ Week 3: Reverse-engineered and broke "quantum-proof" encryption system
 - ✅ Week 4: Cloud security incident response and Azure exploitation analysis
 - ✅ Week 5: Decoded obfuscated backdoor and identified dual-infrastructure attack
 - ✅ Week 6: Reverse-engineered UPX-packed malware and documented complete exfiltration chain
-- ✅ Identified 35+ critical security vulnerabilities across six challenges
+- ✅ Identified 40+ critical security vulnerabilities across seven challenges
 - ✅ Created automated analysis scripts for log parsing and forensics
 - ✅ Documented comprehensive remediation steps
 - ✅ Discovered novel attack techniques:
@@ -299,6 +332,12 @@ Through these challenges, I'm developing expertise in:
 ```
 echo-response-offsec-challenge/
 ├── README.md                          # This file
+├── WEEK 0 - Tutorial Challenge/
+│   ├── README.md                      # Challenge overview
+│   ├── INVESTIGATION_REPORT.md        # Detailed forensic analysis
+│   ├── analyze_tutorial.py            # Analysis script
+│   ├── access.log                     # Web server logs
+│   └── tutorial.txt                   # Base64-encoded message
 ├── WEEK 1 - ProtoVault Breach/
 │   ├── README.md                      # Challenge overview
 │   ├── INVESTIGATION_REPORT.md        # Detailed forensic analysis
@@ -345,6 +384,8 @@ To explore the solutions:
 
 2. **Navigate to a specific week:**
    ```bash
+   cd "WEEK 0 - Tutorial Challenge"
+   # or
    cd "WEEK 1 - ProtoVault Breach"
    # or
    cd "WEEK 2 - Stealer's Shadow"
@@ -403,7 +444,7 @@ If you find these solutions helpful, please consider giving this repository a st
 
 ---
 
-**Last Updated:** November 11, 2025
+**Last Updated:** November 17, 2025
 
 ---
 
