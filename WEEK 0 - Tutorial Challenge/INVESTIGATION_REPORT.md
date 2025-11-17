@@ -666,8 +666,6 @@ See `analyze_tutorial.py` for automated forensic analysis tool.
 
 **Report Prepared By:** MR. Umair  
 **Date:** November 17, 2025  
-**Classification:** Educational - Tutorial Exercise  
-**Distribution:** Public (GitHub Repository)
 
 ---
 
