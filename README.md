@@ -418,7 +418,7 @@ echo-response-offsec-challenge/
 │   ├── README.md                      # Challenge overview and Q&A
 │   ├── INVESTIGATION_REPORT.md        # Detailed forensic analysis
 │   ├── analyze_slack_exfiltration.py  # PCAP analysis script
-│   └──  find_exfiltration.py           # Exfiltration detection script
+│   └── find_exfiltration.py           # Exfiltration detection script
 └── ...
 ```
 
