@@ -277,11 +277,11 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 4. James Brown uploads same file to rogue workspace at 11:57:48 GMT
 5. Sensitive customer data now exposed on unauthorized Slack workspace
 
+
 **Files:**
 - [Investigation Report](./WEEK%207%20-%20Codex%20Circuit/INVESTIGATION_REPORT.md)
 - [Analysis Script](./WEEK%207%20-%20Codex%20Circuit/analyze_slack_exfiltration.py)
 - [Exfiltration Finder](./WEEK%207%20-%20Codex%20Circuit/find_exfiltration.py)
-- [Challenge Questions](./WEEK%207%20-%20Codex%20Circuit/question.txt)
 - [Challenge README](./WEEK%207%20-%20Codex%20Circuit/README.md)
 
 ---
@@ -418,9 +418,7 @@ echo-response-offsec-challenge/
 │   ├── README.md                      # Challenge overview and Q&A
 │   ├── INVESTIGATION_REPORT.md        # Detailed forensic analysis
 │   ├── analyze_slack_exfiltration.py  # PCAP analysis script
-│   ├── find_exfiltration.py           # Exfiltration detection script
-│   ├── question.txt                   # Challenge questions
-│   └── megacorp.pcap                  # Network capture (234,337 packets)
+│   └──  find_exfiltration.py           # Exfiltration detection script
 └── ...
 ```
 
