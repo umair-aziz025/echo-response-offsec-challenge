@@ -393,6 +393,7 @@ This tutorial challenge serves as an introduction to the Echo Response series:
 - **WEEK 4 - Echo Trail:** Cloud security and Azure investigation
 - **WEEK 5 - Emerald Anomaly:** Supply chain attack analysis
 - **WEEK 6 - Nullform Vault:** UPX-packed malware reverse engineering
+- **WEEK 7 - Codex Circuit:** Slack data exfiltration and PCAP analysis
 
 ---
 

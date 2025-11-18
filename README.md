@@ -241,6 +241,51 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 
 ---
 
+### ✅ [Week 7 - Codex Circuit](./WEEK%207%20-%20Codex%20Circuit)
+**Status:** COMPLETED  
+**Category:** Network Forensics, Incident Response, PCAP Analysis  
+**Difficulty:** Easy
+
+**Scenario:** At the heart of the Cyber Realms lies the **Codex Circuit** - the foundation of every permission, boundary, vault, and soulprint. With Voidweaver ready to activate it, a critical alert emerges: confidential MegaCorp documents have surfaced on a public forum. The Security Operations Center suspects internal misuse of Slack collaboration tools.
+
+**Challenge Objective:** Analyze network traffic (PCAP) to uncover Slack-based data exfiltration, identify the users involved (internal employee and threat actor), determine the timeline of events, and recover the exfiltrated customer data.
+
+**Key Skills:**
+- PCAP analysis using Scapy
+- Slack API forensics (files.upload, file_shared events)
+- HTTP/HTTPS traffic analysis
+- Timeline reconstruction from packet data
+- User attribution via conversation context
+- File extraction from network captures
+- Excel file parsing and analysis
+- JSON payload analysis
+- Timestamp conversion (Unix to GMT)
+- Insider threat detection
+
+**Key Findings:**
+- **Exfiltrated File:** `sensitive_customer_list.xls` (6,656 bytes, 3 customer records worth $300,000)
+- **Internal User:** Ava (U09KA40P3F0) shared file at 2025-10-10 11:51:36 GMT
+- **Threat Actor:** James Brown (U09KRBDV8S1) exfiltrated to rogue workspace
+- **Rogue Workspace:** `secret-ops-workspace.slack.com` (Team ID: T09KSNJU27Q)
+- **Legitimate Workspace:** `team-megacorp.slack.com` (Team ID: T09KR3R0PFB)
+- **Attack Duration:** 6 minutes 12 seconds (from internal share to exfiltration)
+
+**Attack Chain:**
+1. Ava uploads customer list to company_documents channel
+2. File shared to channel members at 11:51:36 GMT
+3. James Brown (legitimate member) downloads file
+4. James Brown uploads same file to rogue workspace at 11:57:48 GMT
+5. Sensitive customer data now exposed on unauthorized Slack workspace
+
+**Files:**
+- [Investigation Report](./WEEK%207%20-%20Codex%20Circuit/INVESTIGATION_REPORT.md)
+- [Analysis Script](./WEEK%207%20-%20Codex%20Circuit/analyze_slack_exfiltration.py)
+- [Exfiltration Finder](./WEEK%207%20-%20Codex%20Circuit/find_exfiltration.py)
+- [Challenge Questions](./WEEK%207%20-%20Codex%20Circuit/question.txt)
+- [Challenge README](./WEEK%207%20-%20Codex%20Circuit/README.md)
+
+---
+
 ## 🎯 Learning Objectives
 
 Through these challenges, I'm developing expertise in:
@@ -296,6 +341,7 @@ Through these challenges, I'm developing expertise in:
 | 4 | Echo Trail | ✅ Completed | Cloud/IR | Intermediate |
 | 5 | Emerald Anomaly | ✅ Completed | Malware/Network | Hard |
 | 6 | Nullform Vault | ✅ Completed | Malware/RE/Forensics | Hard |
+| 7 | Codex Circuit | ✅ Completed | Network/PCAP/IR | Easy |
 
 ---
 
@@ -308,6 +354,7 @@ Through these challenges, I'm developing expertise in:
 - ✅ Week 4: Cloud security incident response and Azure exploitation analysis
 - ✅ Week 5: Decoded obfuscated backdoor and identified dual-infrastructure attack
 - ✅ Week 6: Reverse-engineered UPX-packed malware and documented complete exfiltration chain
+- ✅ Week 7: Analyzed Slack-based data exfiltration and recovered customer data from PCAP
 - ✅ Identified 40+ critical security vulnerabilities across seven challenges
 - ✅ Created automated analysis scripts for log parsing and forensics
 - ✅ Documented comprehensive remediation steps
@@ -367,6 +414,13 @@ echo-response-offsec-challenge/
 │   ├── Obfuscated_Intent.exe          # Malware sample (UPX-packed)
 │   ├── ioc_report.csv                 # IOCs in CSV format
 │   └── ioc_report.md                  # IOCs in Markdown format
+├── WEEK 7 - Codex Circuit/
+│   ├── README.md                      # Challenge overview and Q&A
+│   ├── INVESTIGATION_REPORT.md        # Detailed forensic analysis
+│   ├── analyze_slack_exfiltration.py  # PCAP analysis script
+│   ├── find_exfiltration.py           # Exfiltration detection script
+│   ├── question.txt                   # Challenge questions
+│   └── megacorp.pcap                  # Network capture (234,337 packets)
 └── ...
 ```
 
@@ -397,6 +451,8 @@ To explore the solutions:
    cd "WEEK 5 - Emerald Anomaly"
    # or
    cd "WEEK 6 - Nullform Vault"
+   # or
+   cd "WEEK 7 - Codex Circuit"
    ```
 
 3. **Read the challenge writeup:**
@@ -444,7 +500,7 @@ If you find these solutions helpful, please consider giving this repository a st
 
 ---
 
-**Last Updated:** November 17, 2025
+**Last Updated:** November 18, 2025
 
 ---
 
