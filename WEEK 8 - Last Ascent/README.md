@@ -4,7 +4,7 @@
 
 **Challenge Name:** Last Ascent  
 **Category:** ICS/SCADA Forensics, Incident Response, Privilege Escalation  
-**Difficulty:** Hard  
+**Difficulty:** Insane  
 **Status:** ✅ COMPLETED
 
 ---
