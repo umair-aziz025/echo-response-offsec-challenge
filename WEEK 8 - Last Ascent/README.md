@@ -20,16 +20,16 @@ The power stabilization layer has been compromised, and the **Codex Circuit's** 
 ## 🔍 Challenge Questions
 
 ### Q1: Powergrid Shutdown Analysis
-**Question:** Identify how the Powergrid was shut down. State the technical status of the turbines after the attack and provide the attacker IP.
+**Question:** Identify how the Powergrid was shut down. State the technical status of the turbines after the attack (flags, control bits, output states) and provide the IP address of the system from which the attack was performed.
 
 **Answer:**
-- Turbine Status: `run=0, speed register=0, lockout bit=1`
+- Turbine Status: Turbines forced into STOP state, `run=0`, `speed register=0`, `lockout bit=1`
 - Attacker IP: `192.168.1.253`
 
 ---
 
 ### Q2: Attacker Knowledge Source
-**Question:** From where did the attacker gain the knowledge necessary to perform this attack?
+**Question:** From where did the attacker gain the knowledge necessary to perform this attack? If from a file, include the complete filename and its SHA-256 hash. If from a website, provide the full URL beginning with "https://".
 
 **Answer:**
 - File: `WT-PLC_Turbine_Control_Manual.pdf`
@@ -38,7 +38,7 @@ The power stabilization layer has been compromised, and the **Codex Circuit's** 
 ---
 
 ### Q3: RESOURCES Machine Compromise
-**Question:** How was the attacker able to compromise the RESOURCES machine?
+**Question:** How was the attacker able to compromise the RESOURCES machine? Provide the name of the exploited program and the SHA-256 hash of the malicious file used in the compromise.
 
 **Answer:**
 - Exploited Program: `MonitorTool.exe`
@@ -47,34 +47,36 @@ The power stabilization layer has been compromised, and the **Codex Circuit's** 
 ---
 
 ### Q4: Pivot Information
-**Question:** What two pieces of information enabled the attacker to pivot to the next system?
+**Question:** What two pieces of information did the attacker obtain on the RESOURCES system that enabled them to pivot to the next system in the attack path?
 
 **Answer:**
 - SSH Username: `vyos`
-- SSH Private Key: `router2.privkey`
+- SSH Private Key: `router2.privkey` (for host 192.168.1.253)
 
 ---
 
 ### Q5: Credential Harvesting
-**Question:** How did the attacker harvest credentials on CLIENT8? Enter the SHA-256 hash.
+**Question:** Enter the username and password of the user that performed the attack in question 3, and the SHA-256 hash of the program responsible for capturing or collecting these login credentials.
 
 **Answer:**
-- Tool: `ssp.dll` (Security Support Provider)
+- Username: `carmen.santos` (or MEGACORPONE\carmen.santos)
+- Password: `Qwerty09!`
+- Program: `ssp.dll` (Security Support Provider)
 - SHA-256: `566DEE9A89CE772E640CDB1126480F83EE048CEA4B7661A9427AF42A9FAB8B46`
 
 ---
 
-### Q6: Phishing Domain & Browser
-**Question:** What is the domain of the phishing website and the user's browser details?
+### Q6: Initial Access Vector
+**Question:** Identify and analyze the initial access vector. Provide the domain (without suffixes or prefixes) where the payload for initial access was loaded from and the program (including its version) that was exploited or targeted.
 
 **Answer:**
-- Phishing Domain: `microsoft-login.com`
-- Browser: Chrome `137.0.7151.56`
+- Domain: `microsoft-login` (full domain: microsoft-login.com)
+- Exploited Program: Chrome version `137.0.7151.56`
 
 ---
 
 ### Q7: Privilege Escalation
-**Question:** How did the attacker elevate privileges? Provide program name, SHA-256, and CVE.
+**Question:** How did the attacker elevate their privileges on CLIENT8? Provide the name and SHA-256 hash of the program responsible for privilege escalation, and the CVE related to the vulnerability used.
 
 **Answer:**
 - Program: `BitLockerDeviceEncrypton.exe` (note the typo - masquerading technique!)
