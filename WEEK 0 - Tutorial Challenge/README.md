@@ -385,6 +385,7 @@ WEEK 0 - Tutorial Challenge/
 
 ## 🔗 Related Challenges
 
+
 This tutorial challenge serves as an introduction to the Echo Response series:
 
 - **WEEK 1 - ProtoVault Breach:** Git forensics and AWS security
@@ -394,6 +395,7 @@ This tutorial challenge serves as an introduction to the Echo Response series:
 - **WEEK 5 - Emerald Anomaly:** Supply chain attack analysis
 - **WEEK 6 - Nullform Vault:** UPX-packed malware reverse engineering
 - **WEEK 7 - Codex Circuit:** Slack data exfiltration and PCAP analysis
+- **WEEK 8 - Last Ascent:** ICS/SCADA forensics, kernel exploitation, and attack chain reconstruction
 
 ---
 
