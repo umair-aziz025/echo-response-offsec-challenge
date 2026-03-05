@@ -26,6 +26,9 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 ## 📂 Challenge Solutions
 
 ### ✅ [Week 0 - Tutorial Challenge](./WEEK%200%20-%20Tutorial%20Challenge)
+
+<img src="./assets/tutorial.jpg" alt="Tutorial Challenge" width="100%">
+
 **Status:** COMPLETED  
 **Category:** Incident Response, Log Analysis, Encoding  
 **Difficulty:** Easy
@@ -475,6 +478,17 @@ Through these challenges, I'm developing expertise in:
 ```
 echo-response-offsec-challenge/
 ├── README.md                          # This file
+├── assets/
+│   ├── echo-response-logo.png         # Repository logo
+│   ├── tutorial.jpg                   # Week 0 banner
+│   ├── protovault-breach.jpg          # Week 1 banner
+│   ├── stealers-shadow.jpg            # Week 2 banner
+│   ├── quantum-conundrum.jpg          # Week 3 banner
+│   ├── echo-trail.jpg                 # Week 4 banner
+│   ├── emerald-anomaly.jpg            # Week 5 banner
+│   ├── nullform-vault.jpg             # Week 6 banner
+│   ├── codex-circuit.jpg              # Week 7 banner
+│   └── last-ascent.jpg                # Week 8 banner
 ├── WEEK 0 - Tutorial Challenge/
 │   ├── README.md                      # Challenge overview
 │   ├── INVESTIGATION_REPORT.md        # Detailed forensic analysis
