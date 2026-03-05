@@ -1,4 +1,15 @@
-# Echo Response - OffSec Challenge Solutions 🛡️
+<div align="center">
+  <img src="./assets/echo-response-logo.png" alt="Echo Response Logo" width="220">
+
+  # Echo Response — OffSec Challenge Solutions 🛡️
+  ### Cyber Realm · Season 1 · Proving Grounds: The Gauntlet
+
+  ![Status](https://img.shields.io/badge/Season%201-Complete-00EAFF?style=flat-square)
+  ![Challenges](https://img.shields.io/badge/Completed-9%2F9-BAFF29?style=flat-square)
+  ![Score](https://img.shields.io/badge/All%20Challenges-Solved-00EAFF?style=flat-square)
+</div>
+
+---
 
 Welcome to my solution repository for the **OffSec Echo Response** cybersecurity challenge series! This repo contains detailed writeups, investigation reports, and solution scripts for each weekly challenge from the "Proving Grounds: The Gauntlet" event.
 
@@ -42,6 +53,9 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 ---
 
 ### ✅ [Week 1 - ProtoVault Breach](./WEEK%201%20-%20ProtoVault%20Breach)
+
+<img src="./assets/protovault-breach.jpg" alt="ProtoVault Breach" width="100%">
+
 **Status:** COMPLETED  
 **Category:** Incident Response, Digital Forensics, OSINT  
 **Difficulty:** Beginner
@@ -62,6 +76,9 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 ---
 
 ### ✅ [Week 2 - Stealer's Shadow](./WEEK%202%20-%20Stealer's%20Shadow)
+
+<img src="./assets/stealers-shadow.jpg" alt="Stealer's Shadow" width="100%">
+
 **Status:** COMPLETED  
 **Category:** Incident Response, Malware Analysis, Threat Intelligence  
 **Difficulty:** Intermediate
@@ -92,6 +109,9 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 ---
 
 ### ✅ [Week 3 - Quantum Conundrum](./WEEK%203%20-%20Quantum%20Conundrum)
+
+<img src="./assets/quantum-conundrum.jpg" alt="Quantum Conundrum" width="100%">
+
 **Status:** COMPLETED  
 **Category:** Reverse Engineering, Cryptanalysis, Binary Analysis  
 **Difficulty:** Insane
@@ -122,6 +142,9 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 ---
 
 ### ✅ [Week 4 - Echo Trail](./WEEK%204%20-%20Echo%20Trail)
+
+<img src="./assets/echo-trail.jpg" alt="Echo Trail" width="100%">
+
 **Status:** COMPLETED  
 **Category:** Incident Response, Cloud Security, Digital Forensics  
 **Difficulty:** Intermediate
@@ -155,6 +178,9 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 ---
 
 ### ✅ [Week 5 - Emerald Anomaly](./WEEK%205%20-%20Emerald%20Anomaly)
+
+<img src="./assets/emerald-anomaly.jpg" alt="Emerald Anomaly" width="100%">
+
 **Status:** COMPLETED  
 **Category:** Incident Response, Malware Analysis, Network Forensics  
 **Difficulty:** Hard
@@ -196,6 +222,9 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 ---
 
 ### ✅ [Week 6 - Nullform Vault](./WEEK%206%20-%20Nullform%20Vault)
+
+<img src="./assets/nullform-vault.jpg" alt="Nullform Vault" width="100%">
+
 **Status:** INVESTIGATION COMPLETE ✅  
 **Category:** Malware Analysis, Reverse Engineering, Digital Forensics  
 **Difficulty:** Hard
@@ -242,6 +271,9 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 ---
 
 ### ✅ [Week 7 - Codex Circuit](./WEEK%207%20-%20Codex%20Circuit)
+
+<img src="./assets/codex-circuit.jpg" alt="Codex Circuit" width="100%">
+
 **Status:** COMPLETED  
 **Category:** Network Forensics, Incident Response, PCAP Analysis  
 **Difficulty:** Easy
@@ -287,6 +319,9 @@ Echo Response is a high-stakes cyber defense simulation featuring escalating sce
 ---
 
 ### ✅ [Week 8 - Last Ascent](./WEEK%208%20-%20Last%20Ascent)
+
+<img src="./assets/last-ascent.jpg" alt="Last Ascent" width="100%">
+
 **Status:** COMPLETED  
 **Category:** ICS/SCADA Forensics, Incident Response, Privilege Escalation  
 **Difficulty:** Insane
